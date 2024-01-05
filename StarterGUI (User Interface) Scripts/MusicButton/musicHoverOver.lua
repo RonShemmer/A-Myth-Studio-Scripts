@@ -1,0 +1,6 @@
+script.Parent.MouseEnter:Connect(function()
+	script.Parent.Size = UDim2.new(0.053, 0,0.107, 0)
+end)
+script.Parent.MouseLeave:Connect(function()
+	script.Parent.Size = UDim2.new(0.047, 0,0.101, 0)
+end)
